@@ -266,6 +266,8 @@ namespace OpenHardwareMonitor.Hardware.Mainboard {
           break;
         case Chip.NCT6779D:
         case Chip.NCT6791D:
+        case Chip.NCT6793D:
+        case Chip.NCT6795D:
           GetNuvotonConfigurationD(superIO, manufacturer, model, v, t, f, c);
           break;
         default:
